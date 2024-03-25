@@ -1,0 +1,201 @@
+:root {
+  --primary-font-family: 'Poppins', sans-serif;
+  --head-color: #FFF;
+  --p-color: #868686;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outline {
+  width: 100%;
+  height: 100%;
+  background-color: #192026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 23px;
+  padding-bottom: 83px;
+}
+
+.head {
+  width: 1274px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 12px; */
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  gap: 83px;
+}
+
+.title h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 7%;
+  color: var(--head-color);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 30px;
+  li a {
+    text-decoration: none;
+    color: var(--p-color);
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 7%;
+  }
+}
+
+.searchBox {
+  width: 374px;
+  height: 48px;
+  border-radius: 37px;
+  color: var(--p-color);
+  background-color: #374151;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 7%;
+}
+
+.searchBox::placeholder {
+  padding-left: 18px;
+}
+
+.main {
+  padding: 30px 130px 0 130px;
+}
+
+.quote {
+  h1 {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: var(--head-color);
+    padding-bottom: 15px;
+  }
+  p {
+    font-family: var(--primary-font-family);
+    color: var(--p-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24.75px;
+    padding-bottom: 32px;
+  }
+}
+
+.carousel {
+  background-image: url("./img/spy_carousel\ 1.png");
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+  border-radius: 12px;
+  width: 1170px;
+  height: 400px;
+  margin-bottom: 23px;
+  .carouselTitle {
+    background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+    width: 586px;
+    height: 400px;
+    padding-left: 32px;
+    padding-top: 220px;
+    font-family: var(--primary-font-family);
+    h1 {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 64px;
+      color: var(--head-color);
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+      color: var(--head-color);
+    }
+  }
+}
+
+.newRelease {
+  height: 100%;
+  h1 {
+    font-family: var(--primary-font-family);
+    color: var(--head-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    padding-bottom: 23px;
+  }
+  .box {
+    width: 170px;
+    height: 254px;
+    border-radius: 12px;
+    padding-bottom: 1px;
+    .imgFilm0 {
+     background-image: url(./img/One-piece\ 1.png); 
+    }
+    .imgFilm1 {
+      background-image: url(./img/boruto-naruto-next-generations\ 1.png);
+    }
+    .imgFilm2 {
+      background-image: url(./img/spy_card\ 1.png);
+    }
+    .imgFilm3 {
+      background-image: url(./img/attackontitan\ 1.png);
+    }
+    .imgFilm4 {
+      background-image: url(./img/captsu_card\ 1.png);
+    }
+    .imgFilm5 {
+      background-image: url(./img/aoashi_card\ 1.png);
+    }
+    .pr {
+      background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%);
+      width: 170px;
+      height: 254px;
+      top: 752px;
+      left: 135px;
+      border-radius: 12px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 12px;
+      p {
+        font-family: var(--primary-font-family);
+        color: var(--head-color);
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+    .titleFilm {
+      width: 170px;
+      padding-top: 12px;
+      text-align: center;
+      color: var(--head-color);
+      font-family: var(--primary-font-family);
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  .displayFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
